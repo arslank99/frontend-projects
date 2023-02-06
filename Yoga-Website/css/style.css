@@ -1,0 +1,662 @@
+
+/*
+=========================
+      Font Family
+=========================
+*/
+
+*{ font-family: 'Raleway', sans-serif;}
+
+.dark-cyan{background-color: #6c9894;}
+
+.light-cyan{background-color: #e2ede8;}
+
+/*
+=========================
+   Navigation Css Start
+=========================
+*/
+
+#logo-set{
+    width: 100px;
+    margin: -26px -12px 0px 20px;
+    background-color:#17e3d0;
+    padding: 30px 0px;
+}
+
+#logo-set img {
+    width: 100%;
+}
+
+#mynavbar li a  {
+   margin-right: 40px;
+}
+
+#mynavbar ul li:hover {
+  background-color:  #66ddd278;
+  color: #000;
+  transition: 0.6s ease;
+}
+
+
+/*
+=========================
+   Navigation Css End
+=========================
+*/
+
+
+
+/*
+=========================
+   BANNER CSS START
+=========================
+*/
+.bg-design img {
+    border-radius: 50%;
+    width: 60%;
+    margin: 145px 140px;
+    border: 4px solid #bed2ce;
+}
+
+.bg-design {
+    background-image: url(../images/shape1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heading1{
+    margin: 150px 0px;
+    text-align: center;
+}
+
+.heading1 h1 {
+    color: #6c9894;
+    font-size: 70px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.heading1 p {
+    color: #6c9894;
+    margin: 20px 0px;
+}
+
+.heading1 a {
+    background-color: #6c9894;
+    color: #fff;
+    padding: 6px 35px;
+    border-radius: 15px;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.heading1 a:hover {
+  background-color:  #66ddd278;
+  color: #000;
+  transition: 0.6s ease;
+}
+
+/*
+=========================
+   BANNER CSS END
+=========================
+*/
+
+
+/*
+=========================
+    CHOOSE CLASSES CSS
+=========================
+*/
+
+
+.dark-cyan-light{
+    background-image: linear-gradient(#146860c9,#467a76e6);
+}
+
+.bg-design3 {
+    background-image: url(../images/shape2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+}
+
+.bg-design2 {
+    background-image: url(../images/shape3.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: justify;
+}
+
+
+.bg-design2 img {
+    margin: 43px 42px;
+    width: 70%;
+}
+
+.heading2{
+    margin: 50px 0px;
+}
+
+.heading2 h1{
+   font-size: 50px;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.heading2 p{
+   font-size: 20px;
+   color: #fff;
+   text-transform: capitalize;
+}
+
+.dark-cyan-light h1{
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.dark-cyan-light p{
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+}
+   
+/*
+=========================
+ CHOOSE CLASSES CSS END
+=========================
+*/
+
+
+/*
+=========================
+    STATUS CSS START
+=========================
+*/
+.stats
+{
+  background-image: url(../images/yogalight.png);
+  background-repeat: no-repeat,no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100%;
+}
+
+.heading3{
+    margin: 50px 0px;
+}
+
+.heading3 h1{
+   font-size: 40px;
+   color:  #6c9894;
+   text-transform: uppercase;
+}
+
+.heading3 p{
+   font-size: 15px;
+   color:  #6c9894;
+   text-transform: capitalize;
+}
+
+.circle h1 {
+    color: #6c9894;
+    margin-top: 38px;
+    text-align: center;
+}
+
+.circle p {
+    color: #6c9894;
+    text-align: center;
+}
+
+.radius{
+    border: 3px solid #6c9894;
+    border-radius: 100px;
+}
+
+/*
+=========================
+    STATUS CSS END
+=========================
+*/
+
+
+/*
+=========================
+    BEST INSTRUCTOR
+=========================
+*/
+
+.best-heading-bg{
+  background-color:#6c9894;
+}
+
+.best-heading {
+  margin-top: 300px;
+  padding: 10px 100px;
+}
+
+.best-heading h1 {
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.best-heading p{
+  color:#fff;
+}
+
+.best-heading a {
+  background-color: #fff;
+  color:#6c9894;
+  padding: 10px 60px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+/*
+=========================
+    BEST INSTRUCTOR
+=========================
+*/
+
+
+/*
+=========================
+    Experince css
+=========================
+*/
+
+.exp-heading {
+  margin-top: 200px;
+}
+
+.exp-heading h1 {
+    color: #6c9894;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+.exp-heading p{
+  color:#6c9894;
+}
+
+.exp-heading a {
+  background-color:#6c9894;
+  color:#fff;
+  padding: 10px 60px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+
+
+/*
+=========================
+  Experince css end
+=========================
+*/
+
+
+/*
+=========================
+      PRICING CSS
+=========================
+*/
+
+
+.heading-price {
+    text-align: center;
+    background-color: #fff;
+    padding: 5px 30px;
+}
+.heading-price h1{
+  margin-top: 12px;
+  text-transform: uppercase;
+  color:#6c9894;
+}
+
+.heading-price span{
+  color:#6c9894;
+  font-size: 30px
+}
+
+.heading-price p{
+  margin-top: 12px;
+  color:#6c9894;
+}
+
+.heading-price a {
+  background-color:#6c9894;
+  color: #fff;
+  padding: 10px 50px;
+  margin: 10px 0px; 
+  text-transform: uppercase;
+}
+
+/*
+=========================
+     TRAINER CSS
+=========================
+*/
+
+.stats2{
+  background-image: url(../images/yoga-circle-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100%;
+}
+
+.circle-front img{
+  margin: 35px 45px;
+}
+
+.circle-bg {
+    background-image: url(../images/yoga-circle2.png);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    width: 100%;
+}
+
+.stats2 h1{
+   margin-top: 12px;
+   text-transform: uppercase;
+   color:#6c9894;
+   text-align: center;
+}
+
+.stats2 p{
+  text-align: center;
+   margin-top: 30px;
+   color:#6c9894;
+}
+
+/*
+=========================
+    UPDATE CSS
+=========================
+*/
+
+
+#update .container-fluid{
+  background-color: #6c9894;
+  color: #fff;
+}
+
+#update h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#update p {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#update input {
+    padding: 10px 110px;
+    border-radius: 50px;
+    border:1px solid #6c9894;
+}
+
+#update button {
+    border:1px solid #6c9894;
+    padding: 8px 32px;
+    border-radius: 50px;
+    color:#6c9894; 
+}
+
+/*
+=========================
+    FOOTER CSS
+=========================
+*/
+
+/*
+================================
+        Footer shape
+=================================
+*/
+
+#fix {
+  padding: 0px 20px;
+}
+    
+#fix h4{
+margin: 30px 0px;
+color: #6c9894;
+}
+
+#fix p{
+margin: 20px 0px;
+color: #6c9894;
+}
+
+#fix a{
+margin: 12px 0px;
+font-size: 30px;
+margin-right: 10px;
+color: #6c9894;
+border-radius: 30px;
+padding: 5px 15px;
+}
+
+#fix a:hover{
+background-color: #e2a355;
+color: white;
+transition: 0.6s ease;
+}
+
+.custom-yellow{
+background-color: #e2a355;
+color: #fff;
+
+}
+
+#fix2 h5{
+color: #6c9894; 
+}
+
+#fix2 a {
+text-decoration: none;
+color: #6c9894;
+line-height: 2;
+
+}
+
+#fix2 a:hover{
+font-size: 17px;
+color: #e2a355;
+transition: 0.8s ease;
+}
+    
+/*
+================================
+        Footer shape
+=================================
+*/
+
+
+
+@media screen and (max-width:900px) {
+
+.bg-design {
+    background-image: url(../images/shape1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-design img {
+    border-radius: 50%;
+    width: 50%;
+    margin: 73px 110px;
+    border: 4px solid #bed2ce;
+}
+
+.heading1 {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.heading1 h1 {
+    color: #6c9894;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+}
+
+@media screen and (max-width:800px) {
+
+  .dark-cyan-light h1 {
+    font-size: 25px;
+}
+
+.dark-cyan-light p {
+    font-size: 14px; 
+}
+
+.bg-design {
+   display: none;
+}
+
+.bg-design img {
+   display: none;
+}
+
+.bg-design2 img {
+    margin: 55px 58px;
+    width: 70%;
+}
+
+.best-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+}
+
+.best-heading h1 {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.best-heading p{
+  color:#fff;
+  font-size: 14px;
+}
+
+.best-heading a {
+    background-color: #fff;
+    color: #6c9894;
+    padding: 4px 16px;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+
+.exp-heading {
+  margin-top: 100px;
+}
+
+.exp-heading h1 {
+    color: #6c9894;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.exp-heading p{
+  color:#6c9894;
+  font-size: 14px;
+}
+
+.exp-heading a {
+  background-color:#6c9894;
+  color:#fff;
+  padding: 10px 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#update h1 {
+  font-size: 30px;
+}
+
+#update p {
+  font-size: 13px;
+}
+
+#update input {
+    padding: 3px 17px;
+    border-radius: 50px;
+    border: 1px solid #6c9894;
+}
+
+#update button {
+    border: 1px solid #6c9894;
+    padding: 3px 9px;
+    border-radius: 50px;
+    color: #6c9894;
+}
+
+.circle-bg{
+  display: none;
+}
+
+#fix {
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.exp-heading h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.exp-heading a {
+    padding: 8px 25px;
+    margin: auto 55px;
+}
+
+.heading2 h1 {
+    font-size: 30px;
+}
+
+.heading2 p {
+    font-size: 12px;
+}
+
+.best-heading {
+    padding: 10px 20px;
+}
+
+.best-heading h1 {
+   text-align: center;
+}
+
+
+.best-heading a {
+    
+    padding: 4px 12px;
+    margin: auto 50px;
+}
+
+#best-ins .col-md-6{
+  text-align: center;
+}
+
+.bg-design3 .col-md-5{
+   text-align: center;
+}
+
+}
