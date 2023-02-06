@@ -1,0 +1,91 @@
+body{
+	overflow-x: hidden;
+	background-color: #d3d3d38c;
+}
+
+.bg-custom{
+	background-color: #2d3e58;
+}
+
+.icon{
+   font-size: 10px;
+}
+
+.bg-color{
+	color: #17c4bb;
+}
+
+.extra{
+  width: 80%;
+}
+
+.develop{
+   color: #647fa7;
+}
+
+
+
+.bg-custom1{
+	background-color: #17c4bb;
+}
+
+.bord{
+  border-radius: 9px;
+}
+
+.bord2{
+	border-right: 1px solid ;
+	border-left:1px solid;
+}
+
+.icons2{
+	font-size: 20px;
+}
+
+.high{
+	height: 100px;
+    border-radius: 10px;
+}
+
+.bg-hd{
+	background-color: #fff;
+}
+
+/*@media screen and (max-width: 600px) {
+ 
+
+
+  .blant{
+  	margin: 15px auto;
+  }
+
+  .image1{
+      margin: auto 45px;
+      width: 100%;
+  }
+  
+*/
+
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+ 
+
+
+  .blant{
+    margin: 15px auto;
+  }
+
+  .image1{
+      margin: auto 5px;
+      width: 100%;
+  }
+  
+
+
+
+
+}
