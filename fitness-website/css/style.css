@@ -1,0 +1,511 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+font-family: "Open Sans", sans-serif;
+}
+p{
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+}
+
+/*
+=====================================
+          Header Part Css
+======================================
+*/
+
+#header{
+    background-image: url(../images/layer1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    position: relative;
+
+}
+
+#header a {
+    color: #fff;
+    margin: 7px 0px 0px 0px;
+}
+
+
+#header a:hover {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#header a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fa7c30;
+    transition: width .3s;
+}
+
+#header a:hover::after {
+    width: 100%;
+    transition: width .3s; 
+}
+
+
+#overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000004d;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#header span {
+    color: #fa7c30;
+    margin: 10px 0px;
+}
+
+.banner-heading{
+    margin: 100px 0px;
+}
+
+.banner-heading h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.banner-heading p {
+    font-size: 16px;
+    color: #fff;
+}
+
+#getbtn{
+    background-color: #fa7c30;
+    color: #fff;
+    padding: 5px 25px;
+    border-radius: 0px;
+    font-weight: bold;
+
+}
+
+#getbtn:hover{
+    background-color: #fff;
+    color: #fa7c30;
+    padding: 5px 25px;
+    border-radius: 0px;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+
+#order_now{
+    position: absolute;
+    top: 78%;
+    left: 7%;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 1px hsl(0, 4%, 64%);
+}
+
+#order_now input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #fa7c30
+  }
+
+  #order_now input:focus {
+    border-color: #fa7c30;
+    outline: 1px dotted #fa7c30;
+  }
+
+  #order_now select {
+    word-wrap: normal;
+    width: 100%;
+    padding: 6px 20px;
+    margin-top: 6px;
+    outline: 0px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom-color: #fa7c30;
+    border-bottom-width: 2px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+#orderbtn{
+    color: #fff;
+    background-color: #fa7c30;
+    padding: 10px 30x;
+    font-weight: bolder;
+    border-radius: 0px;
+    border: 1px solid #fa7c30;
+}
+
+#orderbtn:hover{
+    color: #fa7c30;
+    background-color: #fff;
+    transition: 0.6s;
+}
+
+/* 
+ ===============================
+      Welcome Part Css Start
+ ===============================
+*/
+
+#welcome {
+background-color: #f1f4f6;
+}
+
+#welcome h1 {
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.welcome-heading{
+   margin-top: 450px;
+}
+
+#welcome img {
+    margin-top: 120px;
+}
+
+#welcome span {
+    color: #fa7c30;
+}
+
+#welcome .p1{
+    color: #000;
+    font-weight: bold;
+}
+
+#welcome .p2{
+    color: grey;
+    font-weight: bold;
+}
+
+
+/*
+=============================
+    3three Pics Section
+=============================
+*/
+
+#threepic .headings h1 {
+   font-weight: bold;
+   text-transform: uppercase;    
+}
+
+#threepic .headings span {
+  color: #fa7c30;  
+}
+
+#threepic .headings p{
+  color:grey;  
+}
+
+#threepic .card-title{
+   font-weight: bold;
+}
+
+#threepic .card-body{
+  padding: 35px 25px; 
+  background-color:#f1f4f6; 
+}
+
+
+/* 
+========================
+  Personal Trainer    
+========================
+*/
+#personal {
+background-image: url(../images/full.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height:500px;
+position: relative;
+}
+
+.overlay{
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: #0000004d;
+}
+
+.personal-heading{
+margin-top: 150px;
+text-transform: uppercase;
+}
+
+.personal-heading h1 {
+font-weight: bold;
+font-size: 55px;
+margin: 20px 0;
+}
+
+.personal-heading h4 {
+font-size: 30px;
+}
+
+/* 
+========================
+  Expert Trainer  Css   
+========================
+*/
+.expert-heading{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.expert-heading h1{
+     font-weight: bold; 
+}
+
+
+.expert-heading span{
+     color: #fa7c30; 
+     font-weight: bold;
+}
+
+
+#expert h3{
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#expert h5{
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fa7c30; 
+}
+
+/*
+=======================
+  free pass days
+=======================
+*/
+
+#first-column{
+background-image: url(../images/replace.png);
+background-repeat: no-repeat;
+background-size: cover;
+height:400px;
+position: relative; 
+}
+
+#second-column{
+background-image: url(../images/replace1.png);
+background-repeat: no-repeat;
+background-size: cover;
+height:400px;
+position: relative; 
+}
+
+.heading1{
+   margin-top: 120px;
+}
+
+
+.heading1 h5,h1{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* 
+ =========================
+    Footer Part Css
+ =========================
+*/
+
+.para1 {
+  margin-left: 20px;
+}
+
+#footer h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+#footer span{
+  color: #fa7c30;
+}
+
+#footer a{
+  color: #fff;
+  font-size: 22px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#footer a:hover{
+  color: #fa7c30;
+  transition: 0.6s ease;
+}
+
+#footer input{
+    width: 210px;
+    height: 40px;
+}
+
+#footer button {
+    background-color: #fa7c30;
+    color: #fff;
+    border: 1px solid #fa7c30;
+    padding: 7px 15px;
+    margin-left:-4px;
+}
+
+@media only screen and (max-width: 976px){
+
+#order_now {
+position: absolute;
+top: 78%;
+left: 8%;
+background-color: #fff;
+box-shadow: 1px 1px 5px 1px hsl(0deg 4% 64%);
+}
+
+#welcome img {
+margin-top: 300px;
+}
+
+.banner-heading {
+margin: 70px 0px;
+}
+
+.banner-heading h1 {
+font-size: 36px;
+}
+
+.banner-heading p {
+font-size: 12px;
+}
+
+.personal-heading h1 {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.personal-heading h4 {
+  font-size: 18px;
+}
+
+}
+
+@media only screen and (max-width: 768px){
+
+#header {
+background-image: url(../images/layer1.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center bottom, center left;
+width: 100%;
+height: 700px;
+position: relative;
+
+}
+    
+#navbarSupportedContent{
+background-color: #fa7c30;
+text-align: center;
+margin: 10px 12px;
+}
+
+#navbarSupportedContent a:hover{
+text-align: center;
+border-bottom: none;
+transition: none;
+}
+
+.banner-heading h1 {
+font-size: 30px;
+font-weight: bolder;
+}
+
+.banner-heading p {
+font-size: 12px;
+color: #fff;
+}
+
+#order_now {
+position: absolute;
+top: 78%;
+left: 5%;
+background-color: #fff;
+}
+
+
+.welcome-heading {
+    margin-top: 1000px;
+    text-align: center;
+}
+
+#welcome img {
+    margin-top: -150px;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 560px){
+
+#order_now {
+position: absolute;
+top: 78%;
+left: 0%;
+background-color: #fff;
+}
+
+.welcome-heading {
+    margin-top: 1000px;
+    text-align: center;
+}
+
+#welcome img {
+    margin-top: -150px;
+}
+
+#footer input {
+    width: 100%;
+    height: 40px;
+}
+
+#footer button {
+    background-color: #fa7c30;
+    color: #fff;
+    border: 1px solid #fa7c30;
+    padding: 7px 15px;
+    margin-left: 1px;
+    width: 100%;
+}
+
+.flexible {
+    display: flex!important;
+    flex-direction: column;
+}
+
+
+
+
+}
